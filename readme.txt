@@ -3,6 +3,9 @@
   ~~~~~~
   K Lawson Dec 2015
   
+  Simple lwip UDP server example for STM32Disco using STM32_BB board.  This also shows a method of porting EWARM
+  projects to atollic.
+  
   1. Create Systick example for Disco F4  in Atollic, import from the web using peripheral lib
   2. Get that running and make sure it's flashy
   3. Pull across files in the examples from: 
@@ -12,6 +15,7 @@
      a. add files & include refs in prefs as required
      b. Set IP in main.h to 192.168.1.15
      c. create inc dir & ref in prefs
+     d. exclude form build anything that causes issues e.g. LCD
   5. Ping from PC
   
   Note - won't show up as a DHCP client in a router as it's not DHCP.
