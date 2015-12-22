@@ -1,13 +1,19 @@
 /**
   ORIGIN
-  K Lawson 2015
-  Create Systick example for Disco in Atollic
-  Get that running and make sure it's flashy
-  Pull in the examples from: 
-  http://www.element14.com/community/docs/DOC-51693?ICID=knode-STM32F4-bboardschematic
-  Spend an hour getting it to compile
-  Set IP in main.h to 192.168.1.15
-  Ping from PC
+  ~~~~~~
+  K Lawson Dec 2015
+  
+  1. Create Systick example for Disco F4  in Atollic, import from the web using peripheral lib
+  2. Get that running and make sure it's flashy
+  3. Pull across files in the examples from: 
+    http://www.element14.com/community/docs/DOC-51693?ICID=knode-STM32F4-bboardschematic
+    Drag files and allow to copy.  Copy from KEIL (doesn't matter though sources are shared to EWARM)
+  4. Spend an hour getting it to compile
+     a. add files & include refs in prefs as required
+     b. Set IP in main.h to 192.168.1.15
+     c. create inc dir & ref in prefs
+  5. Ping from PC
+  
   Note - won't show up as a DHCP client in a router as it's not DHCP.
   
   C:\Users\keithl\Desktop\STM32F4DIS-BB Discover More Software Examples\STM32F4xx_Ethernet_Example\Project\Standalone\udp_echo_server
